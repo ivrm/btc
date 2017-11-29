@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BitCoin Tools</title>
+    <title>Bitcoin Tools</title>
     <link href="/css/app.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <div class="content">
-        <h1>BitCoin Tools</h1>
+        <h1>Bitcoin Tools</h1>
         <form>
             <div class="form-group">
                 <button type="submit" class="btn btn-success btn-sm" id="connectButton">Connect</button>
