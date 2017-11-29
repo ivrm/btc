@@ -17,6 +17,8 @@ composer update
 
 
 ### Configure client
+Rename ```.env.example``` to ```.env```
+
 To connect to Bitcoin Core you'll need to add at least following parameters in .env file
 ```
 BITCOIND_SCHEME=(scheme from bitcoin.conf)
