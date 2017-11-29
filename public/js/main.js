@@ -7,7 +7,7 @@ $(function () {
         console.log("Connecting...");
         $.ajax({
             method:"GET",
-            url:"api/connect",
+            url:"/api/connect",
             data:""
         }).done(function (res) {
            console.log(res);
@@ -24,7 +24,7 @@ $(function () {
         console.log("Getting new address...");
         $.ajax({
             method:"GET",
-            url:"api/addr/new",
+            url:"/api/addr/new",
             data:""
         }).done(function (res) {
             console.log(res);
@@ -39,11 +39,10 @@ $(function () {
         console.log("Getting last block...");
         $.ajax({
             method:"GET",
-            url:"api/block/last",
+            url:"/api/block/last",
             data:""
         }).done(function (res) {
             console.log(res);
-            //console.log(arr);
             var content = '';
             for(elem in res) {
                 content += '<tr>';
