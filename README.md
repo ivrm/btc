@@ -5,6 +5,8 @@ This laravel project help you to work with Bitcoin Core server.
 It's use [laravel-bitcoinrpc](https://github.com/denpamusic/laravel-bitcoinrpc) project - Bitcoin JSON-RPC client powered by GuzzleHttp.
 
 ## Installation
+Install [Composer](https://getcomposer.org)
+
 Run 
 ```
 git clone git@github.com:ivrm/btc.git
