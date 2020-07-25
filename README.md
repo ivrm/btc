@@ -14,7 +14,7 @@ git clone git@github.com:ivrm/btc.git
 
 and run 
 ```
-composer update
+composer install
 ```
 
 
@@ -31,7 +31,7 @@ BITCOIND_PASSWORD=(rpcpassword from bitcoin.conf)
 ```
 
 ## Requirements
-* PHP 7.0 or higher (should also work on 5.6, but this is unsupported)
+* PHP 7.0 or higher
 * Laravel 5.1 or higher
 
 ## Usage
